@@ -83,7 +83,7 @@ challenge:                                # Incoming challenges. (Commenting all
 
 matchmaking:
   initial_time: 30                        # Initial time for matchmaking mode.
-  increment:                             # Increment time for matchmaking mode.
+  increment: 0                            # Increment time for matchmaking mode.
   rated: true                             # Activate rated games in matchmaking mode.
   timeout: 20                             # Time until a challenge is canceled.
   variant: standard                       # Chess variants to challenge (https://lichess.org/variant).
